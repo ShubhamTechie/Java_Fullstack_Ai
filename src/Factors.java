@@ -9,12 +9,15 @@ public class Factors {
 
 //        System.out.println(new Factors().c);
 
-//        Scanner s = new Scanner(System.in);
-//
-//        int a = s.nextInt();
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter starting number ");
+        int start = s.nextInt();
+        System.out.println("enter sending number ");
+
+        int end = s.nextInt();
         {
 
-            for (int a = 1; a < 1000; a++) {
+            for (int a = start; a < end; a++) {
                 int sum = 0;
 
 
