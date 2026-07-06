@@ -20,6 +20,7 @@ public class Factors {
             }
         }
         System.out.println("sum to a  foactor" + sum);
+        System.out.println("sum to a  foactor" + sum);
 
     }
 }
