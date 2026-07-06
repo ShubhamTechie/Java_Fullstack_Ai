@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Factors {
 
-   int c =1;
+    int c = 1;
+
     public static void main(String[] args) {
 
 
@@ -11,14 +12,14 @@ public class Factors {
         Scanner s = new Scanner(System.in);
 
         int a = s.nextInt();
-
-        for (int i = 1; i <= a ; i++) {
-            if (a % i == 0){
-
-                System.out.println(i);
+        int sum = 0;
+        for (int i = 1; i <= a; i++) {
+            if (a % i == 0) {
+                sum += i;
+                System.out.println(" factors is " + i);
             }
-
         }
+        System.out.println("sum to a  foactor" + sum);
 
     }
 }
