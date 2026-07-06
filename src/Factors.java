@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class Factors {
 
-
+   int c =1;
     public static void main(String[] args) {
 
+
+        System.out.println(new Factors().c);
 
         Scanner s = new Scanner(System.in);
 
